@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 23, 2014 at 05:38 AM
+-- Generation Time: May 23, 2014 at 05:47 AM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.11
 
@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS `book` (
 --
 
 INSERT INTO `book` (`id`, `bookname`, `createdate`, `createuser`, `author`, `type`, `updateday`, `price`, `picturebook`, `description`) VALUES
-(1, 'doreamon2014', '0000-00-00', 'vu danh hoang', 'abc', 'comic', '2014-05-20', 6000, '1.jpg', 'haha'),
-(2, 'naruto', '0000-00-00', 'nghiem trung hieu', 'akadame', 'comic', '2014-05-21', 7000, '4.jpg', '18+');
+(1, 'doreamon2014', '2014-05-15', 'vu danh hoang', 'abc', 'comic', '2014-05-20', 6000, '1.jpg', 'haha'),
+(2, 'naruto', '2014-05-15', 'nghiem trung hieu', 'akadame', 'comic', '2014-05-21', 7000, '3.jpg', '18+');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
